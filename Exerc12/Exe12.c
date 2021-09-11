@@ -1,9 +1,9 @@
 #include<stdio.h>
 
 int count(int i) {
- int ret=1;
- while (i/=10) ret++;
- return ret;
+    int ret=1;
+    while (i/=10) ret++;
+    return ret;
 }
 
 int main(){
@@ -13,7 +13,7 @@ int main(){
 
     printf("Digite um valor com 5 digito: ");
     scanf("%d", &value);
-    
+
     int dig=count(value);
 
     if(dig <5) printf("Valor invalido");
