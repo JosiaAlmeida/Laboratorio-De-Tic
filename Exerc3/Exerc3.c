@@ -1,12 +1,12 @@
 #include<stdio.h>
 
 int main(){
-    float salarioMinimo, Salario, TotalSalarioMinimo = 0;
+    int salarioMinimo, Salario, TotalSalarioMinimo = 0;
     printf("Salario minimo: ");
-    scanf("%f", &salarioMinimo);
+    scanf("%d", &salarioMinimo);
     printf("Salario: ");
-    scanf("%f",&Salario);
+    scanf("%d",&Salario);
     TotalSalarioMinimo = Salario/salarioMinimo;
-    printf("Total de Salario Minimo: %f \n", TotalSalarioMinimo);
+    printf("Total de Salario Minimo: %d \n", TotalSalarioMinimo);
     return 0;
 }
