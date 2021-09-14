@@ -29,7 +29,6 @@ int main()
         }
         else
         {
-            consumoFinal /= 1000;
             printf("Depois de 5 dias sobrará %.2f gramas \n", consumoFinal);
         }
     }
