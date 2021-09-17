@@ -51,5 +51,6 @@ int main(){
         }else printf("O valor %d não é políndromo\n", Value);
 
     }
+    printf("\n");
     return 0;
 }

@@ -9,7 +9,7 @@ int main(){
     printf("Digite o total de horas trabalhada: ");
     scanf("%f", &totalHours);
 
-    hourValue = minimumWage/5;
+    hourValue = minimumWage/2;
 
     grossSalary = totalHours* hourValue;
 
